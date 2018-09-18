@@ -51,7 +51,7 @@
     },
     "createdAt": 1504095563444,
     "updatedAt": "2018-09-05T21:59:30.012Z",
-    "id": 1,
+    "description": "Hi, this is a description!",
     "is_favorite": "true",
         "Manufacturing": {
           "labour_productivity": {

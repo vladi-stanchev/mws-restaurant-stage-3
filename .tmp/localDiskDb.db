@@ -2,28 +2,84 @@
   "data": {
     "restaurants": [
       {
-        "name": "Mission Chinese Food",
-        "neighborhood": "Manhattan",
-        "photograph": "1",
-        "address": "171 E Broadway, New York, NY 10002",
-        "latlng": {
-          "lat": 40.713829,
-          "lng": -73.989667
+        "Manufacturing": {
+          "labour_productivity": {
+            "description": "Labour productivity is expressed as the average quantity of output obtained in man one hour it's good to use this KPI to know whether employees work efficiently.",
+            "profile": {
+              "output": {
+                "unit_of_reference": [
+                  "Kg",
+                  "Litre",
+                  "Units produced",
+                  "m3",
+                  "m2",
+                  "Hours",
+                  "kWh",
+                  "m"
+                ],
+                "check_up_questions": [],
+                "reminders": [
+                  {
+                    "time": "2018-09-07T18:25:43.511Z",
+                    "frequency": "daily",
+                    "next_reminder_date": {}
+                  },
+                  {
+                    "time": "2018-09-07T18:25:43.511Z",
+                    "frequency": "daily",
+                    "next_reminder_date": {}
+                  }
+                ],
+                "participants": [
+                  {
+                    "name": "Jane Doe",
+                    "phone": "7909876519",
+                    "email": "jane.doe@foo.io"
+                  },
+                  {
+                    "name": "Justin Doe",
+                    "phone": "7467531009",
+                    "email": "just.doe@foo.io"
+                  }
+                ]
+              },
+              "total": {}
+            }
+          },
+          "Equipment": {},
+          "Yield": {},
+          "Non-conformance": {}
         },
-        "cuisine_type": "Asian",
-        "operating_hours": {
-          "Monday": "5:30 pm - 11:00 pm",
-          "Tuesday": "5:30 pm - 11:00 pm",
-          "Wednesday": "5:30 pm - 11:00 pm",
-          "Thursday": "5:30 pm - 11:00 pm",
-          "Friday": "5:30 pm - 11:00 pm",
-          "Saturday": "12:00 pm - 4:00 pm, 5:30 pm - 12:00 am",
-          "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
+        "Sales": {
+          "quote_to_close_ratio": {
+            "description": "This ratio determines the number of quotes needed to get 1 actual sale closed. It helps you know whether your salesforce is efficient or not."
+          },
+          "sales_numbers": {},
+          "average_purchase_value": {},
+          "lead_to_sale_ratio": {},
+          "": {}
         },
-        "createdAt": 1504095563444,
-        "updatedAt": "2017-09-14T14:01:27.653Z",
-        "id": 1,
-        "is_favorite": false
+        "Logistics": {
+          "delivery_incidents_number": {
+            "description": "This indicator follows up the number of logistics incidents recorded in a day/week/month with an option to log in incident reports."
+          },
+          "delivery_in_full": {},
+          "departure_on_time": {},
+          "delivery_on_time": {},
+          "value_per_shipment": {},
+          "shipment_optimisation_ratio": {}
+        },
+        "Accounting_and_cashflow": {
+          "total_payables": {
+            "description": "This KPI follows up the total suppliers invoices awaiting payment. You may choose the currency in which you wish to track the amount."
+          },
+          "total_receivables": {},
+          "liquidity_ratio": {},
+          "bank_account_net_balance": {},
+          "bank_loan_interest_payments": {},
+          "solvency_ratio": {}
+        },
+        "id": 11
       },
       {
         "name": "Emily",
@@ -562,7 +618,7 @@
       "id": 10
     },
     "restaurants": {
-      "id": 10
+      "id": 11
     },
     "reviews": {
       "id": 30
